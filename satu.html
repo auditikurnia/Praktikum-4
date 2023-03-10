@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="jquery-3.6.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		$(".sembunyi").click(function() {$("#foto").hide("slow") });
+		$(".tampil").click(function() {$("#foto").show("slow") });
+		});
+		
+	</script>
+</head>
+<body>
+	<button class="sembunyi">sembunyikan</button>
+	<button class="tampil">tampilkan</button>
+	<p><img id="foto" src="logoupnbaru.png"></p>
+</body>
+</html>
